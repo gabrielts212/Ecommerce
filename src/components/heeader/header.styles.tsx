@@ -1,9 +1,10 @@
 
-import React from 'react'
+// import React from 'react'
 import "./header.styles.css"
 import { BsCart3} from 'react-icons/bs';
 const header = () => {
-  return <div className="header-container">
+  return (
+  <div className="header-container">
         <h2 className="header-title"> CLUB CLOTHING</h2>
     
             <div className="header-items">
@@ -19,6 +20,6 @@ const header = () => {
         
     </div>
   </div>
-}
+)}
 
 export default header

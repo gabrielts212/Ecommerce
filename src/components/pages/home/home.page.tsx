@@ -1,15 +1,13 @@
-import React from 'react'
-import Header from '../../heeader/header.styles'
-import Categories from '../../Categories/categories.components'
+import React from "react";
+import Header from "../../heeader/header.components";
+import Categories from "../../Categories/categories.components";
 const home = () => {
   return (
-    <div>
+    <>
+      <Header />
+      <Categories />
+    </>
+  );
+};
 
-<Header/>
-<Categories/>
-
-    </div>
-  )
-}
-
-export default home
+export default home;
